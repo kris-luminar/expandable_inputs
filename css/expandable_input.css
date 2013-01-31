@@ -1,0 +1,138 @@
+/* 
+    Document   : expandable_input
+    Created on : Nov 22, 2010, 3:06:53 PM
+    Author     : Kris Luminar<kris@codemonkeys.biz>
+    Description: Styles the expandable input application
+        The images were derived from the Proxal Icon Set 2.0 by !valkyre from http://valkyre.deviantart.com/
+
+*/
+body{
+    font-family: verdana,arial,sans-serif;
+}
+#expandable_input .error {
+    color:#f00;
+    display:block;
+}
+form#expandable_input fieldset span.error {margin:0;}
+.required_field {
+    background-color:#ffdacc;
+    border:2px solid red;
+}
+h1.header {font-size:1.4em;}
+form#expandable_input .required{
+    font-weight:bold;
+    color: #f00;
+    vertical-align: bottom;
+}
+div.wrapper, form#expandable_input {
+    margin: 0 auto;
+    width: 630px;
+}
+form#expandable_input {
+    padding: 0;
+}
+form#expandable_input .addressDetails label{
+    display: block;
+    float: left;
+    width: 218px;
+    padding: 0;
+    margin: 5px 0 0;
+    text-align: right;
+}
+#expandable_input .addressDetails a{
+    display:block;
+    color:#555555;
+    font-weight:bold;
+    height:30px;
+    line-height:30px;
+    margin-top:14px;
+    text-decoration:none;
+    width:191px;
+}
+#expandable_input .addressDetails a:hover, #expandable_input .save_submitted_data:hover{
+    color:#0066CC;
+}
+#expandable_input  .addressDetails .add_me{
+    background:url(../images/add_background.gif) no-repeat;
+    text-indent:52px;
+    display:inline-block;
+    float:right;
+    *float:none; /* IE7 star hack to prevent new line break in IE7 */
+    font-size:.8em;
+    clear: none;
+}
+#expandable_input .addressDetails .delete, #expandable_input .addressDetails .delete_me{
+    background:url(../images/delete_background.gif) no-repeat;
+    text-indent:37px;
+    display:inline-block;
+    font-size:.8em;
+    clear:none;
+    *margin-right:205px; /* IE7 star hack to make previous hack look better */
+}
+#expandable_input .save_submitted_data{
+    background:url(../images/save_background.gif) no-repeat;
+    text-indent:29px;
+    display:inline-block;
+    border:none;
+    color:#555;
+    font-weight:bold;
+    height:30px;
+    line-height:29px;
+    margin:14px 0 0;
+    text-decoration:none;
+    width:191px;
+    font-size:.88em;
+}
+#expandable_input .save{
+    width:191px;
+    margin:0 auto;
+    font-size:.95em;
+    font-weight: bold;
+}
+form#expandable_input fieldset {
+    border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    margin: 0;
+}
+form#expandable_input fieldset legend {
+    font-size:1.1em;
+}
+form#expandable_input input, form#expandable_input textarea, form#expandable_input select {
+    width:auto;
+    margin:5px 0 0 10px;
+}
+form#expandable_input textarea { overflow: auto; }
+form#expandable_input br {clear:left;}
+
+
+#output_table{
+    border-left: 1px solid #c1dad7;
+}
+#output_table th, #output_table td{
+    border-right: 1px solid #c1dad7;
+    border-bottom: 1px solid #c1dad7;
+}
+#output_table td{
+    font-family: serif;
+    background: #fff;
+    padding: 6px 6px 6px 12px;
+    color: #6D929B;
+}
+#output_table tr.odd td{
+    background: #f7fafa;
+    color: #669;
+}
+#output_table th {
+    font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    color: #666;
+    background-color: #f5f5f9;
+    border-right: 1px solid #c1dad7;
+    border-bottom: 1px solid #c1dad7;
+    border-top: 1px solid #c1dad7;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 6px 6px 6px 12px;
+}
